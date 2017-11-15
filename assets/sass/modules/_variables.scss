@@ -1,0 +1,24 @@
+$body-font-size		:   16px;
+$font-stack			:	arial;
+$primary-color		:	#e6910c;
+$primary-btn-color	:	#f7b82b;
+
+$secondary-color	:	#94683a;
+$secondary-orange	:	#ffeacc;
+
+
+//  Media quries
+
+$break-lg: 1200px;
+$break-lg1: 1024px;
+$break-md: 992px;
+$break-sm: 768px;
+$break-xs: 767px;
+$break-xss: 400px;
+$break-xss1: 401px;
+$break-xss2: 767px;
+
+// Example: @media (min-width: $break-lg) { }
+//          @media (min-width: $break-md) { }
+//          @media (max-width: $break-sm) { }
+//          @media (max-width: $break-xs) { }
