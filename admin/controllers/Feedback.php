@@ -74,7 +74,7 @@ class Feedback extends Admin_Controller
           }    
           else
           {   
-             $this->data['editdata']  = array('name'=>'','feedback'=>"");
+             $this->data['editdata']  = array('name'=>'','feedback'=>"","status"=>"");
           }
       }
       catch (Exception $e)

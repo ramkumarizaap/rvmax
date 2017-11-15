@@ -88,7 +88,6 @@
                 <div class="row">
                   <div class="col-md-offset-3 col-md-9">
                       <button type="submit" class="btn green">Save</button>
-                      <a href="<?php echo site_url('credit');?>" class="btn default">Cancel</a>
                   </div>
                 </div>
               </div>

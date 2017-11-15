@@ -9,14 +9,14 @@
 		 				<a href="tel:(888) 352-2316"> (888) 352-2316</a>
 		  			</strong>
 
-		  			<strong>
+		  			<!--<strong>
 			  			Email Us: <i class="fa fa-envelope" aria-hidden="true"></i>
 						<a href="mailto:i85rv@yahoo.com">i85rv@yahoo.com</a>
-		  			</strong>
+		  			</strong>-->
 
 			  		<!-- Social info -->
 			  		<span class="top__header-social pull-right">
-			  			<a href="https://www.facebook.com/RVMAXLoomis/">
+			  			<a href="https://www.facebook.com/RVMAXus-Motorhome-RV-sales-183165835148234/">
 			  				<i class="fa fa-facebook" aria-hidffden="true"></i>
 			  			</a>
 			  			<a href="https://twitter.com/rvmax">
