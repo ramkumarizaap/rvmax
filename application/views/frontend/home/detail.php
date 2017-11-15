@@ -289,8 +289,9 @@
     						{
     							?>
 	    						<div class="price--highlight">
+	    							<a href="http://www.rvt.com/rvdetail.php?id=7638709&preview=1" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" data-loading="Loading...Please Wait" data-featherlight-iframe-width="1040" data-featherlight-iframe-height="700" class="featherlight-loading">
 	        					<div class="price-description-single--red">
-	      							<a href=# onclick="window.open('<?=$inventory['more_info'];?>','newWindow','height=600,width=800, statusbar=yes, resizable=yes, scrollbars=1');">
+	      							<!-- <a href=# onclick="window.open('<?=$inventory['more_info'];?>','newWindow','height=600,width=800, statusbar=yes, resizable=yes, scrollbars=1');"> -->
 	      								<b>More Details</b>
 	      							</a>
 	      						</div>

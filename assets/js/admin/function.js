@@ -107,6 +107,26 @@ $(function()
     //     // valid_children : "+a[div], +div[*]"
     //     // extended_valid_elements : "div[*]",
     // });
+
+    $("select[name='sm_page']").change(function(){
+      val = $(this).val();
+      $.ajax({
+        type:"POST",
+        url:base_url+"settings/get_seo_by_name",
+        data:{val:val},
+        dataType:"json",
+        success:function(data)
+        {
+          console.log(data);
+          if(data.status=="success")
+          {
+            $("input[name='sm_page_title']").val(data.output.sm_page_title);
+            $("input[name='sm_keyword']").val(data.output.sm_keyword);
+            $("input[name='sm_description']").val(data.output.sm_description);
+          }
+        }
+      });
+    });
 });	
 
 function additional_nots(txt)

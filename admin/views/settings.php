@@ -22,7 +22,6 @@
               <!--/row-->
               <h3 class="form-section"><strong>SEO Details</strong> </h3>
               <!--/row-->
-
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group <?php echo (form_error('sm_page'))?'has-error':'';?>">
@@ -33,7 +32,6 @@
                         <option value="Home" >Home page</option>
                         <option value="Contact Us" >Contact Us page</option>
                         <option value="Consignment" >Consignment page</option>
-                        <option value="Credit_applcation" >Credit Application page</option>
                         <option value="Aboust Us" >Aboust Us page</option>
                         <option value="Search">Search page</option>
                         <option value="Top Seller Awards" >Top Seller Awards page</option>

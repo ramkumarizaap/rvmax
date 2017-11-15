@@ -55,4 +55,20 @@ class Settings extends Admin_Controller
 
 		$this->layout->view('settings');
 	}
+
+  public function get_seo_by_name()
+  {
+    $val = $this->input->post('val');
+    $res = get_seo_settings($val);
+    if($res)
+    {
+      $output['status'] = 'success';
+      $output['output'] = $res;
+    }
+    else
+    {
+      $output['status'] = 'error';
+    }
+    $this->_ajax_output($output,true);
+  }
 }
