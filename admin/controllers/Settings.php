@@ -44,8 +44,8 @@ class Settings extends Admin_Controller
               }
               else
               {
-                $ins_data['updated_date']      = date("Y-m-d H:i:s");
-                $setting_id = $this->settings_model->updated(array("sm_page"=>$ins_data['sm_page']),$ins_data,"seo_master");
+                $ins_data['last_updated']      = date("Y-m-d H:i:s");
+                $setting_id = $this->settings_model->update(array("sm_page"=>$ins_data['sm_page']),$ins_data,"seo_master");
                 $msg = 'settings updated successfully'; 
               }
               $this->session->set_flashdata('success_msg',$msg,TRUE);
