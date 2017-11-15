@@ -140,7 +140,9 @@
         <div class="col-md-6">
           <div class="product__box">
             <h4><?=$value['condition']." ".$value['year']." ".$value['make']." ".$value['model'];?></h4>
-            <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            <a href="<?php echo base_url();?>home/detail/<?php echo $value['id']; ?>">
+              <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            </a>
             <div class="show-record clearfix">
               <div class="col-sm-6 color--fade">
                 <div class="table-responsive">
@@ -204,7 +206,9 @@
         <div class="col-md-6">
           <div class="product__box">
             <h4><?=$value['condition']." ".$value['year']." ".$value['make']." ".$value['model'];?></h4>
-            <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            <a href="<?php echo base_url();?>home/detail/<?php echo $value['id']; ?>">
+              <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            </a>
             <div class="show-record clearfix">
               <div class="col-sm-6 color--fade">
                 <div class="table-responsive">
@@ -269,7 +273,9 @@
         <div class="col-md-6">
           <div class="product__box">
             <h4><?=$value['condition']." ".$value['year']." ".$value['make']." ".$value['model'];?></h4>
-            <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            <a href="<?php echo base_url();?>home/detail/<?php echo $value['id']; ?>">
+              <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            </a>
             <div class="show-record clearfix">
               <div class="col-sm-6 color--fade">
                 <div class="table-responsive">
@@ -334,7 +340,9 @@
         <div class="col-md-6">
           <div class="product__box">
             <h4><?=$value['condition']." ".$value['year']." ".$value['make']." ".$value['model'];?></h4>
-            <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            <a href="<?php echo base_url();?>home/detail/<?php echo $value['id']; ?>">
+              <img src="<?php echo $value["filepath"]; ?><?php echo $files[0];?>" class="img-responsive" alt="">
+            </a>
             <div class="show-record clearfix">
               <div class="col-sm-6 color--fade">
                 <div class="table-responsive">
