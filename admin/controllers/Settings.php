@@ -35,12 +35,18 @@ class Settings extends Admin_Controller
               $ins_data['sm_page_title']  = $this->input->post('sm_page_title');
               $ins_data['sm_keyword']     = $this->input->post('sm_keyword');
               $ins_data['sm_description']     = $this->input->post('sm_description');
-              
-              if($id=='')
+              $chk = get_seo_settings($this->input->post('sm_page'));
+              if(!$chk)
               {    
                 $ins_data['created_date']      = date("Y-m-d H:i:s");
                 $setting_id    = $this->settings_model->insert($ins_data,"seo_master");
                 $msg = 'settings added successfully';
+              }
+              else
+              {
+                $ins_data['updated_date']      = date("Y-m-d H:i:s");
+                $setting_id    = $this->settings_model->updated(array("sm_page"=>$ins_data['sm_page'],$ins_data,"seo_master");
+                $msg = 'settings updated successfully'; 
               }
               $this->session->set_flashdata('success_msg',$msg,TRUE);
               redirect('settings');
