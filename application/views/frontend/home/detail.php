@@ -30,14 +30,14 @@
 	              </div>
 		          </li>						        
 							<li>
-								<a href="home/print/<?=$inventory['id'];?>" class="car-action-unit stm-schedule" data-toggle="modal" data-target="#test-drive">
+								<a href="#" class="car-action-unit stm-schedule" data-toggle="modal" data-target="#test-drive">
 								<i class="fa fa-print"></i> Print </a>
 							</li>								            
-	            <li class="stm-shareble">
+	            <!-- <li class="stm-shareble">
 	              <a href="#" class="car-action-unit stm-share" title="Share this" download="">
 	                  <i class="fa fa-share"></i>
 	              	Share this </a>
-	            </li>
+	            </li> -->
 						</ul>
 					</div>
 					<hr />
